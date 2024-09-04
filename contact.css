@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.contact{
+    box-shadow: 0 0 20px 0 #47c35a;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: flex;
+
+}
+
+.contact form{
+    margin: 35px;
+}
+
+.contact input{
+    width: 400px;
+    height: 40px;
+    margin-top: 25px;
+    padding-left: 10px;
+    border-radius: 14px;
+    gap: 20px;
+    column-gap: 25px;
+    border: 2px solid #777;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: none;
+}
+
+.contact-textarea{
+    width: 400px;
+    height: 125px;
+    margin-top: 20px;
+    padding-top: 25px;
+    padding-left: 10px;
+    border-radius: 14px;
+    gap: 20px;
+    column-gap: 25px;
+    border: 2px solid #777;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: none;
+
+}
+
+.contact button{
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #47c35a;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
